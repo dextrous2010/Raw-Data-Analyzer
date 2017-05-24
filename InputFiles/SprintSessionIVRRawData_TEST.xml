@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataSchema name="SprintSessionIVRRawData" type="csvFile" version="1.0.0.0" delimiter="|" importExport="import">
+    <members>
+        <member name="SystemID" type="int" description="SystemID" nullable="false"/>
+        <member name="SessionID" type="long" description="SessionID is created by the Product Now!" nullable="false"/>
+        <member name="ChannelTypeID" type="int" description="ChannelTypeID for IVR as defined in ENUM, 14" nullable="false"/>
+    </members>
+</DataSchema>
